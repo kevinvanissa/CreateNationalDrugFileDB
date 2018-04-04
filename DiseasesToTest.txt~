@@ -1,0 +1,46 @@
+N0000000963    Diarrhea   |  P-Drug = Antidiarrheal ( N0000178374 )
+
+N0000002881     Syphilis   | P-Drug= DOXYCYCLINE ( N0000146109 )
+
+
+===================SCENARIOS=====================================
+
+
+
+Scenario 1(Stacy Walters-P003):
+N0000010195 - Pregnancy [secondary diagnosis]
+N0000002278 - Pain 
+P-Drug - N0000145918 (Aspirin)
+
+
+Scenario 2(Shereen Johnson-P004):
+N0000001616 - Hypertension
+N0000000950 -  Diabetes Mellitus [secondary diagnosis]
+P-Drug - N0000146784 (ATENOLOL)
+
+
+Scenario 3(Mark Foot-P009)
+N0000001434 - [secondary diagnosis - Heart Failure] using [WARFARIN N0000148057]
+N0000001687 - Inflammation [Primary Diagnosis]
+P-Drug - N0000146197 (Ibuprofen)
+
+
+
+Scenario 4(John Brown-P002):
+N0000000498 - Asthma [secondary diagnosis]
+N0000001616 - Hypertension
+P-Drug - N0000146784 (ATENOLOL)
+
+
+
+Scenario 5(Judge Burke-P005):
+N0000002432 - pneumonia
+N0000002435 - Pneumonia, Pneumococcal
+N0000003812 - Pneumonia, Bacterial
+P-Drug - N0000146005 (tetracycline)
+
+
+==============================LIST OF SOME NUIs===================
+
+
+

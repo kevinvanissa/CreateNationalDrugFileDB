@@ -1,0 +1,68 @@
+
+/*
+Comment 1: Change code that checks drug interaction to match new table
+Comment 2: Change IndicationUsage 
+
+*/
+
+/*
+create table Drug(
+    drug_code varchar(11),
+    drug_type_name varchar(100),
+    primary key(drug_code)
+);
+
+create table Diagnosis(
+    diagnosis_code varchar(11),
+    diagnosis_name varchar(100),
+    primary key(diagnosis_code)
+);
+
+create table DrugForm(
+    form_code varchar(11),
+    form_type_name varchar(100),
+    primary key(form_code)
+);
+
+
+create table Interaction(
+    interaction_code varchar(11),
+    interaction_type_name varchar(100),
+    primary key(interaction_code)
+);
+
+
+create table Ingredient(
+    ingredient_code varchar(11),
+    ingredient_type_name varchar(200),
+    primary key(ingredient_code)
+);
+
+
+create table DrugInteraction(
+    drug_code varchar(11),
+    other_drug_code varchar(11),
+    serverity varchar(20),
+    primary key(drug_code,other_drug_code)
+);
+
+
+
+create table IndicationUsage(
+    diagnosis_code varchar(11),
+    drug_code varchar(11),
+    primary key(diagnosis_code,drug_code),
+    foreign key(diagnosis_code) references Diagnosis(diagnosis_code),
+    foreign key(drug_code) references Drug(drug_code)
+);
+
+
+*/
+
+
+
+
+
+
+
+
